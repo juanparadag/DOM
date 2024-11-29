@@ -15,7 +15,7 @@ function verPython() {
     title.innerText = "Python";
     tituloPrincipal.innerText = "Python";
     title.innerHTML = "<em>Python</em>";
-    div.style.background = "yellow";
+    div.style.background = "black";
     div.style.color = "white";
     div.style.borderColor = "gray";
     
