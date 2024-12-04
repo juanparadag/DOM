@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title id="tituloP">Manipulando el DOM</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1 id="title">Manipulando DOM</h1>
-    
-    <div class="main-div">
-        Imagen de ejemplo:
-        <br>
-        <div class="image-container">
-            <img src="images/los-mejores-lenguajes-de-programacion-en-el-desarrollo-web-y-su-importancia-en-la-era-digital.jpg" alt="Javascript" width="100">
-            <p class="image-comment">Comentario inicial para la imagen.</p>
-        </div>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      id="logo"
+      rel="icon"
+      type="image/jpg"
+      href="/images/articleocw-56bba37e791bc.png"
+    />
+  </head>
+  <body>
+    <div id="h1">
+      <h1 id="title">Lenguajes de programacion</h1>
     </div>
-    <br>
-    
-    <div class="old-div">
-        Este DIV se eliminará
+   
+    <br />
+    <div class="main-div" id="main-block">
+      
+        <div id="div-imagen" class="image-container">
+       
+            <p class="image-comment">Selecciona un lenguaje</p>
+          </div>
+      
     </div>
-    <br>
+    <br />
 
-    <button class="botones" id="button" >Ver Python</button>
-    <button class="botones" id="JavaScript">Ver Javascript</button>
-    <button class="botones" id="eliminar" >Eliminar el DIV</button>
+    <br />
+
+    <button class="botones" id="button">Ver Python</button><br />
+    <button class="botones" id="JavaScript">Ver Javascript</button><br />
+    <a href="/pagina2.html">Click aqui</a>
 </body>
-<script type="module" src="script.js"></script>
+  <script type="module" src="script.js"></script>
 </html>
