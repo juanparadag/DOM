@@ -11,13 +11,12 @@ const imagenDelContenedor = document.createElement("img")
 const contenedorImagen = document.getElementById("div-imagen")
 
 
-
+contenedorImagen.appendChild(imagenDelContenedor)
 function verPython() {
     
    
     imagenDelContenedor.src = "images/What-is-Python-3.12_11zon.webp"
     imagenDelContenedor.width = "180"
-    contenedorImagen.appendChild(imagenDelContenedor)
     imagenDelContenedor.setAttribute("alt", "Python");
     title.innerText = "Python";
     tituloPrincipal.innerText = "Python";
@@ -37,19 +36,22 @@ function verPython() {
 }
 
 function verJavaScript() {
+
+    imagenDelContenedor.src = "/images/descargajs.jpg"
+    imagenDelContenedor.width = "100"
+
     title.innerText = "Javascript";
     tituloPrincipal.innerText = "Javascript";
     title.innerHTML = "<em>Javascript</em>";
+
     div.style.background = "#F7DF1E";
     div.style.color = "black";
     div.style.borderColor = "black";
-    imagenDelContenedor.src = "/images/descargajs.jpg"
-    imagenDelContenedor.width = "100"
-    p.innerText = "JavaScript"
+  
     favicon.href = "/images/descargajs.jpg" 
-    // Cambiamos el comentario y su color
     comentario.innerText = "Javascript es clave para el desarrollo web.";
     comentario.style.color = "black"; // Color específico para Javascript
+   
 }
 
 
